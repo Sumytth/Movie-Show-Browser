@@ -1,0 +1,41 @@
+@import "../../common/colors.scss";
+
+.movie-list {
+    margin: 20px 0px; 
+    h2 {
+      color: $font-secondary;
+      margin-bottom: 10px;
+      font-weight: 400;
+    }
+  }
+  // .movie-container{
+  //   display: grid;
+  //   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  //   grid-gap: 15px;
+  // }
+.show-list {
+    margin: 20px 0px; 
+    h2 {
+      color: $font-secondary;
+      margin-bottom: 10px;
+      font-weight: 400;
+    }
+  }
+  .show-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-gap: 15px;
+  }
+  .loading {
+    display: flex;              
+    justify-content: center;    
+    align-items: center;        
+    height: 80vh;             
+    font-size: 24px;           
+    color: #fff;            
+    background-color: rgba(0, 0, 0, 0.7); 
+  }
+  .movies-error h3{
+    color: $font-primary;
+    
+  }
